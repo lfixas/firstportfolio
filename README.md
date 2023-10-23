@@ -36,7 +36,7 @@ Additionally, the `public` folder contains the images used on the website.
 
 You can access my portfolio website by following these simple steps:
 
-1. Go to the GitHub Pages link: [Lucas Fixari's Portfolio](https://lfixas.github.io/firstportfolio/).
+1. Go to the GitHub Pages link: [Lucas Fixari Portfolio](https://lfixas.github.io/firstportfolio/).
 2. You'll be able to explore my portfolio website with details about me, my experiences, and skills.
 3. Contact me. :smile:
 
