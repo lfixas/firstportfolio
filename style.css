@@ -1,0 +1,193 @@
+.background-img {
+    background-image: url('public/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.translateButton {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.greetings {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 200%;
+    font-family: "Lato", sans-serif;
+    position: relative;
+    transition: bottom 0.4s ease;
+}
+
+.profile-img {
+    min-width: 50%;
+    max-width: 300%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+    right: 5%;
+    z-index: 0;
+    transition: bottom 0.4s ease;
+    }
+    
+#tab-1 {
+    z-index: 3;
+    position: sticky;
+    background-color: #ffffff;
+    }
+    
+#navigation {
+    z-index: 5;
+    position: sticky;
+    background-color: #ffffff;
+}
+
+#tab-2 {
+    z-index: 5;
+    background-color: #F0F1F1;
+    position: sticky;
+    }
+
+.about-me {
+font-size: 200%;
+}
+
+.experience-text {
+font-size: 100%;
+}
+
+.tab-button {
+font-size: 100%;
+}
+
+#tab-1, #tab-3 {
+    height: 100vh;
+}
+
+#experience {
+    height: 80vh;
+}
+
+#tab-2 {
+    height: 160vh;
+}
+
+@media (max-width: 767px) {
+.profile-img {
+    left: auto;
+    right: 5%;
+}
+
+.greetings {
+    font-size: 100%;
+}
+
+.experience-text {
+    font-size: 50%;
+}
+
+.about-me {
+    font-size: 100%;
+}
+
+.tab-button {
+    font-size: 50%;
+}
+
+}
+
+.tabs .indicator {
+    background-color: #05b0db;
+    height: 4px;
+}
+
+.tabs .tab {
+    width: auto;
+}
+
+#navigation, #tab-1, #tab-2 {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.tabs .tab a{
+        color:#000000;
+    }
+
+    .tabs .tab a:hover {
+        background-color:#eeeeee;
+        color:#000000;
+    }
+
+    .tabs .tab a.active {
+        background-color:#888888;
+        color:#000000;
+    }
+
+    .tabs .indicator {
+        background-color:#05b0db;
+        left: 0%;
+        right: 75%;
+    }
+
+#experience-title{
+    background: linear-gradient(#5470B9, #639EB8);
+    border-radius : 5px;
+}
+
+#card-rounded{
+    border-radius : 10px;
+}
+
+#center{
+    margin-top:20px;
+}
+
+#tab-projects {
+    background-color: #1F2830;
+    color:#FFFFFF
+}
+
+#project {
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2830;
+}
+
+.scrolling-projects {
+    text-align: center;
+}
+
+.project-fade-in {
+opacity: 0;
+transition: opacity 0.8s ease-in-out;
+}
+
+.project-fade-in.visible {
+opacity: 1;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(10);
+    }
+    50% {
+        transform: translateY(15%);
+    }
+}
+
+.animated-image {
+    animation: moveUpDown 4s ease-in-out infinite;
+}
