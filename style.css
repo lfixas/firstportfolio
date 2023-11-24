@@ -69,16 +69,12 @@ font-size: 100%;
 font-size: 100%;
 }
 
-#tab-1, #tab-3 {
-    height: 100vh;
+#tab-1, #tab-2, #tab-3 {
+    height: auto;
 }
 
 #experience {
     height: 80vh;
-}
-
-#tab-2 {
-    height: 160vh;
 }
 
 @media (max-width: 767px) {
